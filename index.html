@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mateo Sports</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Color de fondo suave */
+    color: #333; /* Color de texto principal */
+}
+header {
+    background-color: #fff; /* Fondo de encabezado blanco */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 95px; /* Tamaño un poco más grande del logo */
+    margin-right: 10px; /* Espaciado entre el logo y el texto */
+}
+header h1 {
+    font-family: 'Playfair Display', serif; /* Fuente elegante para el título */
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto principal */
+}
+header form {
+    display: flex;
+    align-items: center;
+}
+header form input[type="text"] {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+}
+header form input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li {
+    margin-right: 20px;
+}
+header nav ul li:last-child {
+    margin-right: 0;
+}
+header nav ul li a {
+    color: #333; /* Color de texto principal */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    color: #ffd700; /* Color amarillo al pasar el cursor */
+}
+.container {
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenido */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    color: #333; /* Color de texto principal */
+}
+.container h2 {
+    font-family: 'Playfair Display', serif; /* Fuente elegante para los títulos */
+    font-size: 1.8rem;
+    color: #333; /* Color de texto principal */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333; /* Línea decorativa */
+    padding-bottom: 5px;
+}
+.container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.image img {
+    max-width: 200px; /* Ancho máximo de las imágenes */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color de texto del pie de página */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Nuevo estilo para el contenedor de la información de contacto */
+.contact-info {
+    display: none; /* Ocultar inicialmente */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    color: #333;
+}
+
+/* Estilo para el botón de contacto */
+.contact-btn {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+</style>
+</head>
+<body>
+<header>
+    <section class="logo">
+        <img src="logo.jpg" alt="Logo de Mateo Sports">
+    </section>
+    <form action="#" method="GET">
+        <input type="text" name="search" placeholder="Buscar...">
+        <input type="submit" value="Buscar">
+    </form>
+    <nav>
+        <ul>
+            <li><a href="#" id="contact-btn" class="contact-btn">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contact-info" id="contact-info">
+    <h2>Información de contacto</h2>
+    <p>Correo electrónico: info@mateosports.com</p>
+    <p>Teléfono: 123-456-789</p>
+</section>
+
+<section class="container">
+    <article class="information">
+        <h2>¿Que es el futbol y cuales son los mejores jugadores?</h2>
+        <p>El fútbol es un deporte de equipo jugado entre dos equipos de once jugadores cada uno, en un campo rectangular con una portería en cada extremo. El objetivo del juego es marcar goles golpeando la pelota con cualquier parte del cuerpo excepto los brazos y las manos, que son llevados a cabo por el guardameta dentro de su área penal. El equipo que marca más goles gana el partido.
+
+        En cuanto a los mejores jugadores de fútbol de todos los tiempos, la elección puede ser subjetiva y depender de los criterios utilizados para evaluarlos, como el rendimiento en el campo, los logros individuales y colectivos, la habilidad técnica, la consistencia a lo largo de la carrera, entre otros. Algunos de los jugadores más destacados que suelen mencionarse en estas discusiones son:</p>
+    </article>
+
+
+<section class="container">
+    <article class="information">
+        <h2>¿Quién es Pelé?</h2>
+        <p>Pelé, nacido Edson Arantes do Nascimento, fue un destacado futbolista brasileño que jugó como delantero. Es considerado por muchos como el mejor futbolista y deportista de todos los tiempos, reconocido por la FIFA como "el mejor de todos". En 1999, la Revista Olympic lo distinguió como uno de los cinco "mejores atletas del siglo XX", siendo el único futbolista en lograrlo. En 2000 fue elegido como el "mejor futbolista del siglo XX" en una votación realizada por la Comisión de Fútbol de la FIFA y los suscriptores de la Revista FIFA, así como en una encuesta respondida por los ganadores del Balón de Oro. En 2014 recibió el FIFA Balón de Oro Honorífico y en 2016 el Comité Olímpico Internacional le otorgó la Orden Olímpica. Pelé falleció el 29 de diciembre de 2022.</p>
+        <aside class="image">
+            <img src="pele.jpg" alt="Imagen de Pelé">
+        </aside>
+    </article>
+</section>
+
+<section class="container">
+    <article class="information">
+        <h2>¿Quién es Cristiano Ronaldo?</h2>
+        <p>Cristiano Ronaldo dos Santos Aveiro (Funchal, Madeira; 5 de febrero de 1985), es un futbolista portugués. Juega como extremo izquierdo o delantero y su equipo actual es el Al-Nassr F. C. de la Liga Profesional Saudí. Es internacional absoluto con la selección de Portugal, de la cual es capitán, máximo goleador histórico y jugador con más presencias con 205 partidos, logro alcanzado en las eliminatorias para la Eurocopa 2024, reconocido por el Libro Guinness de los récords.</p>
+        <aside class="image">
+            <img src="cristiano.jpg" alt="Imagen de Cristiano Ronaldo">
+        </aside>
+    </article>
+</section>
+
+<section class="container">
+    <article class="information">
+        <h2>¿Quién es Leo Messi?</h2>
+        <p>Lionel Andrés Messi Cuccittini (Rosario, 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista. Desde 2023, integra el plantel del Inter Miami de la MLS canadoestadounidense. Es también internacional con la selección de Argentina, de la que es capitán.</p>
+        <aside class="image">
+            <img src="messi.jpg" alt="Imagen de Leo Messi">
+        </aside>
+    </article>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mateo Sports - Todos los derechos reservados</p>
+</footer>
+
+<script>
+// Función para mostrar u ocultar la información de contacto al hacer clic en el botón
+document.getElementById('contact-btn').addEventListener('click', function() {
+    var contactInfo = document.getElementById('contact-info');
+    if (contactInfo.style.display === 'none') {
+        contactInfo.style.display = 'block';
+    } else {
+        contactInfo.style.display = 'none';
+    }
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
